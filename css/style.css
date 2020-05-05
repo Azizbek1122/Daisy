@@ -1,0 +1,529 @@
+
+@import "../fonts/Gotham PRO/style.css";
+@import "../fonts/PF encore sans pro/stylesheet.css";
+
+h1,h2,h3,h4,h5,h6,p,ul{
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+.topic{
+    color: #868686;
+    font-size: 28,01px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #adadad;
+    padding-bottom: 12px;
+}
+.text{
+    font-size: 20px;
+    color: #adadad;
+    font-family: 'PF Encore Sans Pro';
+    font-weight: 300;
+}
+.span{
+    color: #fc635e;
+}
+.logo{
+    font-size: 24.08px;
+    font-family: 'Gotham Pro Bold';
+    color: white !important;
+    transition: 0.2s;
+    display: inline-block;
+}
+.logo:hover{
+    text-decoration: none;
+    font-size: 26px;
+}
+.logo_img{
+    transition: 0.8s;
+}
+.logo:hover .logo_img{
+    transform: rotateY(180deg) rotate(180deg);
+}
+.header{
+    background: url(../images/header-bg_01.jpg);
+    background-size: cover;
+    background-position: center center ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    height: 100vh;
+    padding: 22px 0 28px;
+}
+.header__row{
+    align-items: center;
+    justify-content: space-between;
+}
+.header__ul{
+    display: flex;
+    justify-content: space-between;
+}
+.header__link{
+    font-size: 16px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'PF Encore Sans Pro';
+    font-weight: 100;
+    padding-bottom: 7px;
+    text-decoration: none !important;
+}
+.header__link:hover{
+    color: #fc635e;
+    border-bottom: 4px solid #fc635e;
+}
+.header__li{
+    transition: .1s
+}
+.header__li:hover{
+    transform: scale(1.1);
+}
+.header__col-xl-12{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 280px;
+}
+.line{
+    width: 107px;
+    height: 8px;
+    background: #fff;
+    opacity: 0.1;
+}
+.header__h1{
+    font-size: 51px;
+    color: white;
+    text-transform: uppercase;
+    font-family: 'PF Encore Sans Pro';
+    font-weight: 800;
+}
+.header__h1__span{
+    color: #fc635e;
+}
+.header__text{
+    font-size: 24.01px;
+    color: white;
+    font-family: 'PF Encore Sans Pro';
+    font-weight: 300;
+    text-align: center;
+    margin-top: 28px;
+}
+.clients{
+    padding: 18px 36px;
+    border: 2px solid #f95954;
+    border-radius: 7px;
+    color: #f95954;
+    font-size: 24.01px;
+    font-family: 'PF Encore Sans Pro';
+    font-weight: 300;
+    display: inline-block;
+    margin-top: 48px;
+    text-decoration: none !important;
+    transition: .5s;
+}
+.clients:hover{
+    color: white;
+    background: #f95954;
+}
+.arrow{
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: bold;
+    width: 28px;
+    height: 28px;
+    background: #f95954;
+    border-radius: 50%;
+    padding: 20px;
+    border: 1px solid transparent;
+    margin-top: 241px;
+    transition: .4s
+}
+.arrow:hover{
+    background: transparent;
+    border: 1px solid #f95954;
+    color: #f95954;
+    text-decoration: none;
+    transform: scale(1.1)
+}
+.receive{
+    background: #fff;
+    padding: 68px 0 15px;
+}
+.receive__topic{
+    width: 390px;
+    margin: auto;
+}
+.receive__text{
+    padding: 0 257px 0;
+    text-align: center;
+    margin-top: 20px;
+}
+.empty{
+    display: none;
+}
+.top{
+    position: relative;
+    width: 101px;
+    margin: auto;
+    margin-top: 80px;
+    cursor: pointer;
+    transition: 1s;
+    margin-bottom: 21px;
+}
+.top:hover{
+    transform: rotate(360deg) 
+}
+.top .fa{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-size: 40px;
+    color: white;
+}
+.top:hover .fa{
+    color: #f95954;
+}
+.top:hover .full{
+    display: none;
+}
+.top:hover .empty{
+    display: inline;
+}
+.receive_topic{
+    font-family: 'PF Encore Sans Pro';
+    font-weight: 500;
+    text-align: center;
+}
+.receive_text{
+    font-size: 15px;
+    text-align: center;
+    margin-top: 22px;
+}
+.receive__arrow{
+    margin-top: 55px;
+    background: transparent;
+    border: 1px solid #f95954;
+    color: #f95954;
+    text-decoration: none;
+}
+.expand{
+    background: url(../images/images/expand-bg_02.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 224px 0 20px;
+    text-align: center;
+}
+.expand__clients{
+    padding: 16px 60px;
+    border-width: 3px
+}
+.expand__clients:hover{
+    transform: scale(1.1)
+}
+.expand__arrow{
+    margin-top: 160px;
+}
+.process{
+    background: #fff;
+    padding: 52px 0 21px;
+}
+
+.process__text{
+    padding: 0 257px;
+    text-align: center;
+    margin-bottom: 57px;
+}
+.process__topic{
+    width: 210px;
+    margin: 0 auto 20px;
+}
+.process__figure{
+    background: url(../images/images/process_bg_02.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding: 222px 0 261px;
+    position: relative;
+}
+.process__step{
+    width: 130px;
+}
+.process__step_topic{
+    width: 61px;
+    font-size: 20px;
+    margin: 0 auto 13px;
+}
+.process__step_text{
+    width: 112px;
+    font-size: 13px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.process__step1{
+    position: absolute;
+    left: 20%;
+    top: 23%
+}
+.process__step2{
+    position: absolute;
+    left: 41.5%;
+    top: 33%
+}
+.process__step3{
+    position: absolute;
+    left: 48%;
+    top: 5%;
+}
+.process__step4{
+    position: absolute;
+    left: 65%;
+    top: 27%;
+    transform: scale(1.4)
+}
+.process__arrow{
+    margin-top: 35px;
+}
+.about{
+    background: #f2f2f2;
+    padding: 61px 0 18px;
+}
+.about__topic{
+    width: 280px;
+    margin: auto;
+    margin-bottom: 67px;
+}
+.about__topic1{
+    border: none;
+}
+.stick{
+    width: 10px;
+    height: 39px;
+    background: #f95954;
+    margin-right: 12px;
+}
+.about__col-xl-6{
+    margin-top: 30px;
+}
+.about__details{
+    padding: 15px 32px;
+    font-size: 20px;
+    color: white;
+    font-family: 'PF Encore Sans Pro';
+    font-weight: 300;
+    font-style: normal;
+    background: #f95954;
+    border-radius: 6px;
+    display: inline-block;
+    margin-top: 39px;
+    text-decoration: none !important;
+    border: 2px solid transparent;
+    transition: .4s;
+}
+.about__details:hover{
+    background: transparent;
+    color: #f95954;
+    border: 2px solid #f95954;
+    transform: scale(1.1)
+}
+.about__arrow{
+    margin-top: 88px;
+}
+.about1{
+    text-align: right !important;
+    padding-top: 135px;
+    background: #fff;
+}
+.stick1{
+    margin: 0 0 0 20px;
+}
+.about2{
+    padding-top: 135px;
+}
+.portfolio{
+    padding: 81px 0 15px;
+}
+.portfolio__topic{
+    width: 170px;
+    margin: auto;
+}
+.long{
+    width: 100%;
+    background: #adadad;
+    height: 1px;
+}
+.portfolio__link{
+    font-size: 20px;
+    color: #fc635e !important;
+    text-transform: uppercase;
+    font-family: 'PF Encore Sans Pro';
+    font-weight: 300;
+    display: inline-block;
+    text-decoration: none !important;
+    transition: .3s
+}
+.portfolio__link:hover{
+    transform: scale(1.1);
+}
+.portfolio__img{
+    z-index: 0;
+    position: relative;
+    transition: .4s
+}
+.portfolio__col-xl-3:hover .portfolio__img,
+.portfolio__col-xl-6:hover .portfolio__img{
+    transform: scale(1.1);
+    z-index: 1;
+    filter: brightness(0.2);
+}
+.portfolio__col-xl-6:hover .img_box,
+.portfolio__col-xl-3:hover .img_box{
+    display: inline;
+}
+.img_box{
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    display: none;
+    z-index: 2;
+    font-size: 28px;
+    text-transform: uppercase;
+    font-family: 'PF Encore Sans Pro';
+    font-weight: 800;
+    width: 100%;
+    height: 100%;
+    color: #f95954;
+}
+.img_box1{
+    font-size: 20px;
+}
+.img_box p{
+    text-shadow: 0px 0px 7px rgba(0, 0, 0, 0.6);
+}
+.portfolio i.fa{
+    position: absolute;
+    font-size: 40px;
+    transform: translateX(-50%) translateY(-50%);
+    top: 45%;
+    left: 45%;
+    color: #f95954
+}
+.portfolio__col-xl-3:hover,
+.portfolio__col-xl-6:hover{
+    cursor: pointer;
+}
+.portfolio_arrow{
+    margin-top: 25px;
+}
+.team{
+    background: #f2f2f2;
+    padding: 55px 0 15px;
+}
+.team__topic{
+    width: 165px;
+    margin: 0 auto 73px;
+}
+.team__topic1{
+    margin: 27px auto 14px;
+    font-size: 28px;
+}
+.team__social{
+    width: 148px;
+    display: flex;
+    justify-content: space-between;
+    margin: 14px auto 0;
+}
+.team__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    background: #565656;
+    color: #f2f2f2;
+    transition: .2s;
+    text-decoration: none !important;
+    border: 1px solid transparent;
+}
+.team__link:hover{
+    transform: scale(1.2);
+    border: 1px solid #565656;
+    background: transparent;
+    color: #565656
+}
+.team__arrow{
+    margin-top: 71px;
+    background: transparent;
+    border: 1px solid #f95954;
+    color: #f95954;
+    
+}
+.workers{
+    padding: 53px 0 165px;
+}
+.workers__text{
+    width: 325px;
+    font-size: 15px;
+    margin-right: 70px;
+}
+.arrows{
+    width: 87px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 40px;
+    color: #f95954;
+    margin: auto;
+}
+.arrows .fa{
+    cursor: pointer;
+}
+.arrows .fa:hover{
+    color: gray;
+}
+.workers__col-xl-2{
+    margin: auto;
+    margin-top: 50px;
+}
+.map{
+    position: relative;
+}
+.map__ugli{
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%)
+}
+.middle{
+    width: 157px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+.map__h4{
+    font-size: 27px;
+    color: white;
+    font-family: 'PF Encore Sans Pro';
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+.map__text{
+    font-size: 15px;
+    color: white
+}
+.footer{
+    position: relative;
+}
+.footer__logo{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: scale(1.5) translateX(-50%)
+}
