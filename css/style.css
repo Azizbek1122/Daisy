@@ -247,7 +247,6 @@ ul{
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
-    background-attachment: fixed;
     padding: 222px 0 261px;
     position: relative;
 }
